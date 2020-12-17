@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayServiceApplication<gateway-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.gatewayservice.GatewayServiceApplication",
+            "projectName": "gateway-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CostumerServiceApplication<customer-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.costumerservice.CostumerServiceApplication",
+            "projectName": "customer-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaDiscoveryApplication<eureka-discovery>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.eurekadiscovery.EurekaDiscoveryApplication",
+            "projectName": "eureka-discovery",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-InventoryServiceApplication<inventory-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.inventoryservice.InventoryServiceApplication",
+            "projectName": "inventory-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BillingServiceApplication<billing-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.billingservice.BillingServiceApplication",
+            "projectName": "billing-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SecurityServiceApplication<security-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "org.sid.securityservice.SecurityServiceApplication",
+            "projectName": "security-service",
+            "args": ""
+        }
+    ]
+}
